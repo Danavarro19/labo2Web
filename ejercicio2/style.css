@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tabla {
+  width: 60%;
+  margin: auto;
+}
+
+.cell {
+  max-width: 1em;
+  width: 1em;
+  height: 5em;
+  background: #000;
+  color: #FFFFFF;
+}
+
+.cell div {
+  height: 4.5em;
+  width: 90%;
+  text-align: center;
+  visibility: hidden;
+  margin: auto;
+  text-align: center;
+
+}
+
+.cell p {
+  padding:1.5em 0;
+}
+
+.row:nth-child(odd) .cell:nth-child(even) {
+  background: #FFFFFF;
+  color: #000;
+}
+
+
+.row:nth-child(even) .cell:nth-child(odd) {
+  background: #FFFFFF;
+  color: #000;
+}
+
+.tabla .row .cell:hover {
+
+}
+
+.cell:hover div {
+  visibility: visible;
+  background: rgba(224, 61, 25,0.5);
+}

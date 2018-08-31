@@ -10,10 +10,18 @@ p {
   padding-top: 0.3em;
 }
 
+span {
+  color: #e78141;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
   color: #1a9cc6;
+}
+
+figure img {
+  width: 100%;
 }
 
 footer {
@@ -73,6 +81,26 @@ footer p {
 
 }
 
-.section-footer .input-group>* {
+.section-footer .input-group label, h3 {
   display: block;
+}
+
+
+.section-footer fieldset {
+  border: none;
+}
+
+.section-footer fieldset >  *{
+  padding: 0.8em;
+}
+
+.section-footer input[type="submit"] {
+  background: #e78141;
+  color: #FFFFFF;
+  border: 0;
+  padding: 0.8em;
+}
+
+.section-footer input[type="submit"]:hover {
+  background: #ed7021;
 }

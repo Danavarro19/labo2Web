@@ -22,8 +22,8 @@
   border:none;
   font-weight: bold;
   text-align: center;
-  margin-right: 2rem;
   border-radius: 10%;
+  margin: 0 1rem;
 }
 
 .btn:hover {background: #adabab;}
@@ -111,3 +111,9 @@
 .lightblue-border:hover {
   background: #0fe7e7;
 }
+
+.slow {transition-duration: 1.1s;}
+
+.midd {transition-duration: 0.7s;}
+
+.fast {transition-duration: 0.1s;}
